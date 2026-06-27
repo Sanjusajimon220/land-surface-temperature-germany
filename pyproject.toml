@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lst-tools"
+version = "1.0.0"
+description = "Turn real Landsat land-surface-temperature rasters into a scrollytelling story of Germany's summer heat."
+authors = [{name = "Sanju Sajimon", email = "sanjusajimon76@gmail.com"}]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "matplotlib", "scipy"]
+
+[project.optional-dependencies]
+data = ["rasterio", "earthengine-api"]
+
+[project.urls]
+"Live story" = "https://sanjusajimon220.github.io/land-surface-temperature-germany/"
+"Source" = "https://github.com/Sanjusajimon220/land-surface-temperature-germany"
+
+[tool.setuptools.packages.find]
+include = ["lst_tools*"]
