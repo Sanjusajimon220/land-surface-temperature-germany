@@ -13,37 +13,11 @@ A single scrollytelling map showing how Germany&rsquo;s summer ground temperatur
 ![Ten-year summer ground temperature](figures/01_absolute.png)
 *The ten-year summer ground temperature across Germany — real Landsat thermal data, national mean ≈ 29.2 °C.*
 
-![Urban heat-island](figures/02_heat_island.png)
-*Subtract the national average and the urban heat-island appears: city cores run hot, countryside cools.*
+### A decade of summers
 
-![Measured warming](figures/03_warming_rate.png)
-*The measured warming trend — a straight line fit through ten years of summers at every pixel, ≈ +1.4 °C/decade.*
+![A decade of summer ground temperature, 2016 to 2026](figures/timelapse.gif)
+*Every summer from 2016 to 2026, measured from space. 2026 is a partial summer, labelled as such.*
 
-![Summer 2026 vs normal](figures/04_summer_2026.png)
-*How this summer is tracking against each place's own ten-year normal — partial summer, labelled honestly.*
-
-
-By **Sanju Sajimon** &mdash; M.Sc. Remote Sensing &amp; Geoinformatics, KIT.
-
----
-
-## What it shows
-
-Germany&rsquo;s summers are getting hotter, and satellites have measured it the whole time &mdash; but the data ships as raw thermal rasters almost nobody can read. This turns that data into a story anyone can scroll:
-
-| Chapter | What you see |
-| --- | --- |
-| **This is Germany** | The ten-year summer ground temperature, measured from space. National mean ≈ **29.2 °C**. |
-| **Ten hottest cities** | Every major city ranked by real summer ground temperature &mdash; **Freiburg** leads at **39.2 °C**. |
-| **State by state** | All **16 Bundesländer**, ranked, with real boundaries. |
-| **Where heat concentrates** | The urban heat-island: city cores glow red, countryside cools to blue. |
-| **A decade of summers** | A **2016 → 2026** time-lapse you can play, pause and scrub. |
-| **This summer vs normal** | How summer 2026 is tracking against each place&rsquo;s own ten-year normal. |
-| **How fast it&rsquo;s warming** | The **measured** per-pixel trend: ≈ **+1.4 °C / decade** &mdash; not a model. |
-| **If the trend holds** | An honest, clearly-labelled extrapolation to 2030. |
-| **Find your city** | Click anywhere on the map to read the real temperature. |
-
-Every figure is real measured data, labelled honestly: **measured vs projected vs partial.** Blank areas (cloud, water) are left empty, not guessed.
 
 ---
 
