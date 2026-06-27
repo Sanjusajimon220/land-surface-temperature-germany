@@ -6,8 +6,24 @@ A single scrollytelling map showing how Germany&rsquo;s summer ground temperatur
 
 ### 🔗 [**Open the live story →**](https://sanjusajimon220.github.io/land-surface-temperature-germany/)
 
-By **Sanju Sajimon** &mdash; M.Sc. Remote Sensing &amp; Geoinformatics, KIT · ex-surveyor &amp; civil engineer.
-Inspired by the satellite-journalism work of [Vertical52](https://vertical52.org).
+---
+
+## A look inside
+
+![Ten-year summer ground temperature](figures/01_absolute.png)
+*The ten-year summer ground temperature across Germany — real Landsat thermal data, national mean ≈ 29.2 °C.*
+
+![Urban heat-island](figures/02_heat_island.png)
+*Subtract the national average and the urban heat-island appears: city cores run hot, countryside cools.*
+
+![Measured warming](figures/03_warming_rate.png)
+*The measured warming trend — a straight line fit through ten years of summers at every pixel, ≈ +1.4 °C/decade.*
+
+![Summer 2026 vs normal](figures/04_summer_2026.png)
+*How this summer is tracking against each place's own ten-year normal — partial summer, labelled honestly.*
+
+
+By **Sanju Sajimon** &mdash; M.Sc. Remote Sensing &amp; Geoinformatics, KIT.
 
 ---
 
